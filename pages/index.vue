@@ -6,6 +6,9 @@
       <p class="py-6">育てたポケモンの努力値配分を記録して<br>自分のポケモンを管理しよう！</p>
       <nuxt-link to="/auth/register" class="w-36 btn btn-warning mx-2">アカウント登録</nuxt-link>
       <nuxt-link to="/auth/login" class="w-36 btn btn-warning mx-2">ログイン</nuxt-link>
+      <div class="mt-8">
+        <button class="text-gray-500 border-b border-gray-500">ゲストとしてログイン</button>
+      </div>
     </div>
   </div>
 </div>
