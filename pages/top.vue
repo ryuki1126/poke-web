@@ -1,9 +1,18 @@
 <template>
   <div>
-    <PokemonCard />
-    <PokemonCard />
-    <PokemonCard />
-    <PokemonCard />
+    <dir>
+      <p class="text-2xl font-bold text-center">新着ポケモン一覧</p>
+      <div class="my-4 flex flex-wrap justify-center">
+        <PokemonCard />
+        <PokemonCard />
+        <PokemonCard />
+        <PokemonCard />
+        <PokemonCard />
+        <PokemonCard />
+        <PokemonCard />
+        <PokemonCard />
+      </div>
+    </dir>
   </div>
 </template>
 
