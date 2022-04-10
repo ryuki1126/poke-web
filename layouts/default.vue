@@ -4,6 +4,7 @@
       <div class="flex-1">
         <nuxt-link to="/top" class="btn btn-ghost normal-case text-xl">ポケモン努力値管理</nuxt-link>
       </div>
+      <!-- TODO: ゲストでログインでログインする場合はアカウント登録ボタンを作成を替わりに表示させる -->
       <div class="flex-none gap-2">
         <div class="dropdown dropdown-end">
           <label tabindex="0" class="btn btn-ghost btn-circle avatar mr-4">
