@@ -13,6 +13,7 @@
             </div>
           </label>
           <ul tabindex="0" class="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+            <li><nuxt-link to="/pokemon/new">育成ポケモン登録</nuxt-link></li>
             <li><nuxt-link to="/mypage">マイページ</nuxt-link></li>
             <li><nuxt-link to="/config">設定</nuxt-link></li>
             <li><button @click="$auth.logout()">ログアウト</button></li>
