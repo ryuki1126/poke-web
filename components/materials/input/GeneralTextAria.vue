@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center m-2">
     <label class="w-24" for="">{{ label }}</label>
-    <input type="text" class="w-60 border-2 p-2 ml-4" :value="value">
+    <textarea class="w-120 border-2 p-2 ml-4" cols="60" rows="10" :value="value"></textarea>
   </div>
 </template>
 

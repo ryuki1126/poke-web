@@ -1,7 +1,7 @@
 <template>
   <div>
     <vue-simple-suggest
-      class="w-60"
+      class="w-60 m-2"
       v-model="selected"
       :list="japanesePokemonNames"
       :filter-by-query="true">
